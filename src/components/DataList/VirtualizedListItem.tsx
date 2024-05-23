@@ -37,6 +37,7 @@ const VirtualizedListItem = (props: VirtualizedListItemProps) => {
         px={6}
         py={4}
         rounded="lg"
+        shadow="sm"
       >
         <GridItem colSpan={3}>
           <Text noOfLines={1}>{item.name}</Text>
